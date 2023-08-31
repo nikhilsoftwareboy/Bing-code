@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=block');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D1F;
+}
+
+body{
+    min-width: 300px;
+    min-height: 100vh;
+    background: #FAFAFA;
+}
+
+/* HEADER */
+.header{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header .heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #1D1D1F;
+}
+
+
+/* SEARCH */
+.search{ padding: 50px 20px; }
+
+.search-quan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text-wrapper{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.search-quan-intput-wrapper{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.search-quan-intput{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #c9c9c9;
+    transition: border 0.1s ease-in-out;
+    -webkit-transition: border 0.1s ease-in-out;
+    -moz-transition: border 0.1s ease-in-out;
+    -ms-transition: border 0.1s ease-in-out;
+    -o-transition: border 0.1s ease-in-out;
+}
+
+.search-quan-intput:focus-visible{ outline: none; }
+.search-quan-intput:focus{ border: 2px solid #858585; }
+
+.message{
+    text-align: center;
+}
+.message-text{
+    color: #ee0c2e;
+    visibility: hidden;
+}
+
+.search-btn-wrapper{ 
+    text-align: center;
+    padding: 20px;
+}
+
+.search-btn{
+    font-size: 20px;
+    padding: 5px 15px;
+    color: #FAFAFA;
+    background: #0066cc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+}
+.search-btn:active{
+    background: #0559ad;
+}
+
+/* NOTES */
+.notes{
+    padding: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+.notes .heading{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.note-text-list{
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.note-text{
+    padding: 2px 0px;
+}

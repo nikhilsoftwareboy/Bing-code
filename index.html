@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for bing</title>
+    <link rel="shortcut icon" href="src/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="src/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading">Searches For Bing</h1>
+    </header>
+    
+    <div class="search">
+        <div class="search-quan">
+            <div class="search-text-wrapper">
+                <p class="search-text">Search Quantity</p>
+            </div>
+            <div class="search-quan-intput-wrapper">
+                <input class="search-quan-intput" id="search-quan-intput" type="number" min="1" max="50" value="35">
+            </div>
+        </div>
+
+        <div class="message">
+            <p class="message-text" id="message-text">hidden message text</p>
+        </div>
+
+        <div class="search-btn-wrapper">
+            <button id="search-btn" class="search-btn">Search</button>
+        </div>
+    </div>
+
+    <div class="notes">
+        <div class="heading">Notes</div>
+        <ul class="note-text-list">
+            <li class="note-text">
+                <p class="text">Default search quantity is 35</p>
+            </li>
+            <li class="note-text">
+                <p class="text">Maximum no of search at a time: 50</p>
+            </li>
+            <li class="note-text">
+                <p class="text">provide only number</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/script.js" ></script>
+
+</body>
+</html>
